@@ -14,6 +14,11 @@
 		025C4A3E1BF96EC700A42FEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025C4A3C1BF96EC700A42FEB /* LaunchScreen.storyboard */; };
 		025C4A491BF96EC700A42FEB /* pizzamania2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025C4A481BF96EC700A42FEB /* pizzamania2Tests.swift */; };
 		025C4A541BF96EC700A42FEB /* pizzamania2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025C4A531BF96EC700A42FEB /* pizzamania2UITests.swift */; };
+		025C4A621BF96F2000A42FEB /* sizeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025C4A611BF96F2000A42FEB /* sizeController.swift */; };
+		025C4A641BF970CB00A42FEB /* masaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025C4A631BF970CB00A42FEB /* masaController.swift */; };
+		025C4A661BF9778C00A42FEB /* quesoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025C4A651BF9778C00A42FEB /* quesoController.swift */; };
+		025C4A681BF97C9D00A42FEB /* ingredientesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025C4A671BF97C9D00A42FEB /* ingredientesController.swift */; };
+		025C4A6A1BF980E100A42FEB /* confirmacionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025C4A691BF980E100A42FEB /* confirmacionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		025C4A4F1BF96EC700A42FEB /* pizzamania2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pizzamania2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		025C4A531BF96EC700A42FEB /* pizzamania2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pizzamania2UITests.swift; sourceTree = "<group>"; };
 		025C4A551BF96EC700A42FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		025C4A611BF96F2000A42FEB /* sizeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sizeController.swift; sourceTree = "<group>"; };
+		025C4A631BF970CB00A42FEB /* masaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = masaController.swift; sourceTree = "<group>"; };
+		025C4A651BF9778C00A42FEB /* quesoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = quesoController.swift; sourceTree = "<group>"; };
+		025C4A671BF97C9D00A42FEB /* ingredientesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ingredientesController.swift; sourceTree = "<group>"; };
+		025C4A691BF980E100A42FEB /* confirmacionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = confirmacionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,11 @@
 			children = (
 				025C4A331BF96EC700A42FEB /* AppDelegate.swift */,
 				025C4A351BF96EC700A42FEB /* ViewController.swift */,
+				025C4A611BF96F2000A42FEB /* sizeController.swift */,
+				025C4A631BF970CB00A42FEB /* masaController.swift */,
+				025C4A651BF9778C00A42FEB /* quesoController.swift */,
+				025C4A671BF97C9D00A42FEB /* ingredientesController.swift */,
+				025C4A691BF980E100A42FEB /* confirmacionController.swift */,
 				025C4A371BF96EC700A42FEB /* Main.storyboard */,
 				025C4A3A1BF96EC700A42FEB /* Assets.xcassets */,
 				025C4A3C1BF96EC700A42FEB /* LaunchScreen.storyboard */,
@@ -256,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				025C4A661BF9778C00A42FEB /* quesoController.swift in Sources */,
+				025C4A6A1BF980E100A42FEB /* confirmacionController.swift in Sources */,
 				025C4A361BF96EC700A42FEB /* ViewController.swift in Sources */,
+				025C4A681BF97C9D00A42FEB /* ingredientesController.swift in Sources */,
+				025C4A641BF970CB00A42FEB /* masaController.swift in Sources */,
 				025C4A341BF96EC700A42FEB /* AppDelegate.swift in Sources */,
+				025C4A621BF96F2000A42FEB /* sizeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
